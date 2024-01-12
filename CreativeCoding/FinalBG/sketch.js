@@ -1,7 +1,7 @@
 let gif;
 
 function preload (){
-gif = loadImage ('assets/WinkingEyeGIF.gif);
+gif = loadImage ('assets/WinkingEye.gif'');
 
 }
 
@@ -9,8 +9,7 @@ function setup() {//runs one time
 
 createCanvas (windowWidth, windowHeight);
     
-    fill ('white')
-  strokeWeight (1);
+
 }
 
 function draw() {//runs in a loop
