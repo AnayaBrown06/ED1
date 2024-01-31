@@ -3,7 +3,7 @@
 let gif;
 
 function preload (){
-gif = loadImage ('assets/WinkingEye.gif'');
+gif = loadImage ('assets/WinkingEye.gif');
 
 }
 
@@ -28,7 +28,7 @@ background ('white');
   image (gif, x, y, sideLen, sideLen);
   }  
   }
-  }
+  
 }
 function windowResized(){
     resizeCanvas (windowWidth, windowHeight);
