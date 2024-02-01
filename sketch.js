@@ -26,8 +26,9 @@ background ('white');
   
   for (var x = 0; x < 2 * windowWidth; x = x + sideLen) {
   image (gif, x, y, sideLen, sideLen);
-  }  
+ 	 }  
   }
+  
   
 }
 function windowResized(){
